@@ -8,7 +8,7 @@ Now, you can do that easily!
 	// webpack configuration object
 	
 	plugins: [
-		new ProvidePlugin({
+		new webpack.ProvidePlugin({
 			__extends: 'typescript-extends'
 		})
 	],
